@@ -1,5 +1,5 @@
 [[rules]]
     id = "gitleak bakcaz"
     description = "indexEnd ifadesini bul"
-    regex = '''indexEnd'''
+    regex = '''Şifre'''
     tags = ["custom"]
