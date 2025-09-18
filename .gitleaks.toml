@@ -1,0 +1,5 @@
+[[rules]]
+id = "excel-keyword"
+description = "Fail if 'excel' is found anywhere in code"
+regex = '''(?i)excel'''
+tags = ["keyword"]
