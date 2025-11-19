@@ -16,6 +16,9 @@ WORKDIR /app
 # Kaynak dosyalarını kopyala
 COPY . .
 
+# GitHub reposunu clone et
+RUN git clone https://github.com/kaya-berk/ExcelParser.git .
+
 # CMake ile derleme (varsayılan)
 RUN mkdir -p build && cd build && cmake .. && make
 
