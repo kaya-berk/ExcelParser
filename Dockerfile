@@ -8,8 +8,11 @@ RUN apt-get update && apt-get install -y \
     qtbase5-dev \
     qtbase5-dev-tools \
     qtchooser \
+    qtbase5-private-dev \
+    qtdeclarative5-dev \
     git \
     && rm -rf /var/lib/apt/lists/*
+
 
 WORKDIR /app
 
