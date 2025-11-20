@@ -22,7 +22,4 @@ RUN git clone https://github.com/kaya-berk/ExcelParser.git .
 # CMake ile derleme (varsayılan)
 RUN mkdir -p build && cd build && cmake .. && make
 
-# Eğer QMake kullanacaksan, yukarıdaki RUN satırını şununla değiştirebilirsin:
-# RUN qmake && make
-
-CMD ["./build/ExcelParser"]
+CMD ["./build/QXlsxParser"]
