@@ -13,9 +13,6 @@ RUN apt-get update && apt-get install -y \
 
 WORKDIR /app
 
-# Kaynak dosyalarını kopyala
-COPY . .
-
 # GitHub reposunu clone et
 RUN git clone https://github.com/kaya-berk/ExcelParser.git .
 
